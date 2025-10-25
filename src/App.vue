@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+// 显式定义组件元数据
+defineOptions({
+  name: 'App'
+})
 </script>
 
 <template>
